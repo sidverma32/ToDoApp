@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>TODO APP LIST</title>
+
+	<link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+	<div class="app">
+		<header>
+			<h1>TODO TASK LIST</h1>
+		</header>
+		<input id="new-task" type="text" placeholder="add a new stage">
+		<button class="add" id="add-column">Add Stage</button>
+
+		<div class="lists" id="parent-container">
+
+			<div class="list">
+				<h3>Initial</h3>
+				<div class="list-item" draggable="true" contenteditable="true">HTML
+				</div>
+				<div class="list-item" draggable="true" contenteditable="true">CSS
+				</div>
+				<div class="list-item" draggable="true" contenteditable="true">JAVASCRIPT</div>
+			</div>
+
+			<div class="list">
+				<h3>Progress</h3>
+			</div>
+
+			<div class="list">
+				<h3>Development</h3>
+			</div>
+
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+
+</html>
